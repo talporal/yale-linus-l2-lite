@@ -1,0 +1,13 @@
+{
+  "domain": "linus_l2_unlatch",
+  "name": "Yale Linus L2 / L2 Lite",
+  "version": "0.6.0",
+  "documentation": "https://github.com/talporal/yale-linus-l2-lite",
+  "issue_tracker": "https://github.com/talporal/yale-linus-l2-lite/issues",
+  "config_flow": true,
+  "dependencies": [
+    "yalexs_ble"
+  ],
+  "integration_type": "device",
+  "iot_class": "local_push"
+}
