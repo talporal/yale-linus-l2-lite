@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Linus L2 Native Open",
+        "description": "Select the existing Yale Access Bluetooth lock. Adds native Open, direct L2 battery-voltage decoding, and a diagnostic lock-status capture button.",
+        "data": {
+          "yalexs_ble_entry_id": "Yale Access Bluetooth lock"
+        }
+      }
+    },
+    "abort": {
+      "no_yalexs_ble": "No Yale Access Bluetooth integration is configured.",
+      "invalid_yalexs_ble_entry": "The selected Yale Access Bluetooth entry is no longer available.",
+      "already_configured": "This Yale Access Bluetooth lock already has this helper configured."
+    }
+  }
+}
